@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socialbook</title>
+    <script src="https://kit.fontawesome.com/71170caeb7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="logo.png" class="logo">
+            <ul>
+                <li><img src="notification.png"></li>
+                <li><img src="inbox.png"></li>
+                <li><img src="video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="search.png">
+                <input type="text" placeholder="search">
+            </div>
+            <div class="user-icon online" onclick="settingsMenuToggle()">
+                <img src="profile-pic.png">
+            </div>
+        </div>
+         <!----------settings meu----------->
+        <div class="settings-menu">
+            <div id="dark-btn" class="dark-btn-on">
+                <span>
+
+                </span>
+
+            </div>
+
+
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="profile-pic.png" alt="">
+                    <div>
+                        <p>Arjun Pundir</p>
+                        <a href="#">See your Profile</a>
+                        </small>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve</a>
+                        </small>
+                    </div>
+                
+                </div>  
+                <hr>
+
+                <div class="settings-Links">
+                    <img src="setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-Links">
+                    <img src="help.png" class="settings-icon">
+                    <a href="#">Help & support<img src="arrow.png" width="10px" ></a>
+                </div>
+                <div class="settings-Links">
+                    <img src="display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility <img src="arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-Links">
+                    <img src="logout.png" class="settings-icon">
+                    <a href="#">LogOut<img src="arrow.png" width="10px"></a>
+                </div>
+            </div>
+           
+            </div>
+
+        </div>
+
+    </nav>
+    <div class="container">
+        <!-----------left-sidebar---------->
+        <div class="left-sidebar">
+            <div class="links">
+                <a href="#"><img src="news.png"> Latest news</a>
+                <a href="#"><img src="friends.png"> Friends</a>
+                <a href="#"><img src="group.png"> Groups</a>
+                <a href="#"><img src="marketplace.png"> Marketplace</a>
+                <a href="#"><img src="watch.png">Watch</a>
+                <a href="#">See more</a>
+
+            </div>
+            <div class="shortcut">
+                <p>Liked Pages</p>
+                <a href="#"><img src="shortcut-1.png" alt="">Web developer</a>
+                <a href="#"><img src="shortcut-2.png" alt="">Web design</a>
+                <a href="#"><img src="shortcut-3.png" alt="">Python</a>
+                <a href="#"><img src="shortcut-4.png" alt="">Java</a>
+
+            </div>
+
+
+        </div>
+        <!-----------Main-Content---------->
+        <div class="main-content">
+            <div class="story">
+                <div class="s">
+                    <img src="upload.png" alt="">
+                    <p>Post story</p>
+                </div>
+                <div class="s s1">
+                    <img src="member-1.png" alt="">
+                    <p>Rohit Gautam</p>
+                </div>
+                <div class="s s2">
+                    <img src="member-2.png" alt="">
+                    <p>Devrath Shishodia</p>
+                </div>
+                <div class="s s3">
+                    <img src="member-3.png" alt="">
+                    <p>Amit Rawat</p>
+                </div>
+                <div class="s s4">
+                    <img src="member-4.png" alt="">
+                    <p>Gaurav</p>
+                </div>
+
+
+            </div>
+
+            <div class="post">
+               
+                <div class="post-input">
+                    <textarea rows="3" placeholder="What's on your mind Abhishek...."></textarea>
+                    <div class="add-post">
+                        <a href=""><img src="live-video.png" alt="">Live video</a>
+                        <a href=""><img src="photo.png" alt="">Photo/Video</a>
+                        <a href=""><img src="feeling.png" alt="">Feeling</a>
+                    </div>
+
+
+                </div>
+ <div class="user-profile">
+                    <img src="profile-pic.png" alt="">
+                    <div>
+                        <p>Arjun Pundir</p>
+                        <small>Public <i class="fa-solid fa-circle-down"></i>
+                        </small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div >
+                            <p>Arjun Pundir</p>
+                            <span> April 02 2022, 12:22pm</span>
+                        </div>
+
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+                </div>
+
+                <p class="post-text">Hello guys like my page <span>Meme Overloaded</span></p>
+                <a href="#">Meme Overloaded</a>
+                <img src="feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">160</div>
+                        <div><img src="comments.png">30</div>
+                        <div><img src="share.png">2</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png " alt=""><i class="fa-solid fa-circle-down"></i>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div class="n">
+                            <p>Gaurav Rana</p>
+                            <span> May 02 2022, 11:22pm</span>
+                        </div>
+
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+                </div>
+
+                <p class="post-text">Hey</p>
+                <img src="feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">120</div>
+                        <div><img src="comments.png">30</div>
+                        <div><img src="share.png"></div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png " alt=""><i class="fa-solid fa-circle-down"></i>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div class="n">
+                            <p>Rohit Gautam</p>
+                            <span> April 08 2022, 12:22pm</span>
+                        </div>
+
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+                </div>
+
+                <p class="post-text">hey </p>
+                <img src="feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like.png">10</div>
+                        <div><img src="comments.png">8</div>
+                        <div><img src="share.png">0</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png " alt=""><i class="fa-solid fa-circle-down"></i>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div class="n">
+                            <p>Shivam Rawat</p>
+                            <span> April 07 2022, 12:22pm</span>
+                        </div>
+
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+                </div>
+
+                <p class="post-text"> Friends </p>
+                <img src="feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">170</div>
+                        <div><img src="comments.png">39</div>
+                        <div><img src="share.png"></div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png " alt=""><i class="fa-solid fa-circle-down"></i>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="profile-pic.png">
+                        <div class="n">
+                            <p>Riya Rawat</p>
+                            <span> April 05 2022, 12:22pm</span>
+                        </div>
+
+                    </div>
+                    <a href="#"><i class="fa-solid fa-ellipsis-vertical"></i></a>
+
+                </div>
+
+                <p class="post-text">Study </p>
+                <img src="feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="like-blue.png">320</div>
+                        <div><img src="comments.png">120</div>
+                        <div><img src="share.png">1</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="profile-pic.png " alt=""><i class="fa-solid fa-circle-down"></i>
+
+                    </div>
+
+                </div>
+            </div>
+            <button type="Button" class="load-more">Load more</button> 
+         </div>
+        <!-----------right-sidebar---------->
+        <div class="right-sidebar">
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="#">See All</a>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social media</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+
+                </div>
+
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>02</h3>
+                    <span>April </span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa-solid fa-location-dot"></i> Willson Tech Park</p>
+                    <a href="#">More Info</a>
+
+                </div>
+
+            </div>
+            <div class="sidebar-title">
+                <h4>Advertisement</h4>
+                <a href="#">Close</a>
+            </div>
+            <img src="advertisement.png" class="ads">
+
+            <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat </a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="member-1.png" alt="">
+                </div>
+                <p>Tushar Dhanai</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="member-2.png" alt="">
+                </div>
+                <p>Devrath Shishodia</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="member-3.png" alt="">
+                </div>
+                <p>Arjun Pundir</p>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="footer">
+        <p>
+            Copyright 2022 
+        </p>
+    </div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
